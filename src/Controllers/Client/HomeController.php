@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return $this->renderViewClient('home');
+        return $this->renderViewClient('layout.master');
     }
 }

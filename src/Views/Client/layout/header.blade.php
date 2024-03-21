@@ -1,36 +1,55 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href=""><img src="https://pubcdn.ivymoda.com/ivy2/images/logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">NAM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">NỮ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TRẺ EM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BỘ SƯU TẬP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BIG SALE THÁNG 3</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              VỀ CHÚNG TÔI
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Về IVY moda</a></li>
+              <li><a class="dropdown-item" href="#">Fashion Show</a></li>
+              <li><a class="dropdown-item" href="#">Hoạt động cộng đồng</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" style="padding:10px 10px 10px 35px" placeholder="TÌM KIẾM SẢN PHẨM" aria-label="Search">
+            </form>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        
       </div>
     </div>
   </nav>
+  {{-- navs --}}
+  <ul class="nav justify-content-center row">
+    <li class="nav-item col-4" style="background-color:#D73831 ">
+      <a class="nav-link text-center" aria-current="page" href="#" style="color: #FFFF">SALE ALL 50% THÊM 10% HĐ TỪ 2SP</a>
+    </li>
+    <li class="nav-item col-4" style="background-color:#DC633A ">
+      <a class="nav-link text-center" href="#" style="color: #FFFF">SALE UPTO 75%</a>
+    </li>
+    <li class="nav-item col-4" style="background-color:#AC2F33 ">
+      <a class="nav-link text-center" href="#" style="color: #FFFF">NEW ARRIVAL + GIẢM 10% HĐ TỪ 2SP </a>
+    </li>
+  </ul>
